@@ -9,32 +9,36 @@
     <div id="btnav">
         <nav>
             <ul>
-                <li><a href="#">meus dados</a></li>
-                <li><a href="#">creditos</a></li>
-                <li><a href="#">sair</a></li>
+                <li><h3><a href="#">meus dados</a></h3></li>
+                <li><h3><a href="#">creditos</a></h3></li>
+                <li><h3><a href="#">sair</a></h3></li>
             </ul>
         </nav>
 
     </div>
     <div id="sis">
         <nav>
-            <img src="WhatsApp Image 2023-04-25 at 17.01.13.jpeg" class="logo">
-            <ul class="deitado">
-                <li><h1><a href="#">Sistema Solar</a></h1></li>
+           <img src="img/" alt="">
+            <ul>
+                <li class="ac"><h1><a href="#">Sistema Solar</a></h1></li>
                 <li><h1><a href="#">Outros</a></h1></li>
+                <li><h1><a href="#">loja</a></h1></li>
+                
             </ul>
         </nav>
 
     </div>
     <div id="menu">
-        <img src="menu.jpg" id="menubtn">
+        <img src="img/menu.jpg" id="menubtn">
 
     </div>
     <script>
         var menubtn = document.getElementById("menubtn")
         var btnav = document.getElementById("btnav")
-        var menu = document.getElementById("menu")    
+        var menu = document.getElementById("menu")
+        btnav.style.display = "none";    
         menubtn.onclick= function(){
+            btnav.style.display = "block";
             if(btnav.style.right == "-250px"){
                 btnav.style.right = "0";
             }else{
