@@ -1,0 +1,50 @@
+body{
+    background-image: url(488171.jpg);
+    background-position: auto;
+    background-size: cover;
+}
+#btnav{
+    width: 250px;
+    height: 40vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: #000000;
+    z-index: 2;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:#ffffff;
+}
+#menu{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menu img{
+    width: 20px;
+    margin-top: 15px;
+
+
+}
+
+nav .logo{
+    width: 200px;
+    position: center;
+}
+header{
+    display: inline-block;
+}
+
