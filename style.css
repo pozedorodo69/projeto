@@ -10,7 +10,7 @@ body{
     position: fixed;
     right: 0;
     top: 0;
-    background:#01382a;
+    background:transparent,
     z-index: 2;
     background-position: center;
     border-radius: 10%;
@@ -50,20 +50,57 @@ nav .logo{
     width: 200px;
     position: center;
 }
-#sis nav ul li{
+.sis{
+   display: flex;
+   align-items: center;
+   padding: 20px;
+   padding-left: 50px;
+   padding-top: 50px;
+   padding-right: 30px;
+}
+.sis nav{
+    flex: 1;
+    text-align: left;
+
+}
+.sis nav ul{
     display: inline-block;
-     position: center;
+    list-style: none;
 }
-#sis nav{
-    color: #ffffff;
-    padding: 5px 40px;
-    border: 10px solid transparent;
-    transition: 0.5 ease;
+.sis nav ul li{
+    display: inline-block;
+    margin-left: 200px;
 
 }
-#sis ul li a:hover{
-    background-color: #ffffff;
-    color: #000;
+.sis nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+.sis nav ul li button{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+
+}
+.sis nav ul li button:hover{
+    color: rgb(14, 131, 111);
+}
+.sis nav ul li button a:hover{
+    color: rgb(14, 158, 134);;
+}
+.sis nav ul li a{
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 28px;
+}
+fieldset{
+   
     border-radius: 10%;
-
+    border-color: rgb(32, 87, 69);
 }

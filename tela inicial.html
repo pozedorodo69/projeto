@@ -4,30 +4,43 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css">
     <title>Home</title>
+    
 </head>
 <body>
     <div id="btnav">
         <nav>
             <ul>
-                <li><h3><a href="#">meus dados</a></h3></li>
-                <li><h3><a href="#">creditos</a></h3></li>
-                <li><h3><a href="#">sair</a></h3></li>
-            </ul>
+                <fieldset>
+                <li><h4><a href="#">Meus Dados</a></h4></li>
+                <li><h4><a href="#">Credits</a></h4></li>
+                <li><h4 id="log"><a href="#">Logout</a></h4></li>
+            </fieldset>
+        </ul>
         </nav>
 
     </div>
-    <div id="sis">
-        <nav>
+    <div >
+        <nav class="sis">
+            <nav>
            <img src="img/" alt="">
             <ul>
-                <li class="ac"><h1><a href="#">Sistema Solar</a></h1></li>
-                <li><h1><a href="#">Outros</a></h1></li>
-                <li><h1><a href="#">loja</a></h1></li>
+                <li class="ac"><h1><button class='sistema'
+                    onclick="document.getElementById('sistema-form').style.display='block'"
+                    style="width:auto;">Sistema Solar</button></h1></li>
+                <li><h1><button class='outros'
+                    onclick="document.getElementById('outros-form').style.display='block'"
+                    style="width:auto;">Outros</button></h1></li>
+                <li><h1><button class='loja'
+                onclick="document.getElementById('loja-form').style.display='block'"
+                style="width:auto;">Loja</button></h1></li>
                 
             </ul>
         </nav>
+        </nav>
+
 
     </div>
+
     <div id="menu">
         <img src="img/menu.jpg" id="menubtn">
 
