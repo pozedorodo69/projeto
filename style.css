@@ -10,8 +10,7 @@ body{
     position: fixed;
     right: 0;
     top: 0;
-    background:transparent,
-    z-index: 2;
+    background:transparent;
     background-position: center;
     border-radius: 10%;
 }
@@ -69,14 +68,15 @@ nav .logo{
 }
 .sis nav ul li{
     display: inline-block;
-    margin-left: 200px;
-
+    margin-left: 70px;
+    
 }
 .sis nav ul li a{
     text-decoration: none;
     font-size: 20px;
     color: white;
     font-family: sans-serif;
+   
 }
 .sis nav ul li button{
     font-size: 20px;
@@ -86,13 +86,14 @@ nav .logo{
     background: transparent;
     cursor: pointer;
     font-family: sans-serif;
-
+   
 }
 .sis nav ul li button:hover{
-    color: rgb(14, 131, 111);
+    color: rgb(0, 255, 234);;
+    
 }
 .sis nav ul li button a:hover{
-    color: rgb(14, 158, 134);;
+    color: rgb(0, 255, 234);;
 }
 .sis nav ul li a{
     text-decoration: none;
@@ -104,3 +105,4 @@ fieldset{
     border-radius: 10%;
     border-color: rgb(32, 87, 69);
 }
+
